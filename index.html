@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/490ef615e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header-section -->
+    <div class="header">
+        <div class="logo"><img width="20%" src="./images/greenGrossLogo.png" alt="logo"></div>
+        <ol class="nav-bar">
+            <li class="nav"><a href="/index.html">Home</a></li>
+            <li class="nav"><a href="#">Vegetables</a></li>
+            <li class="nav"><a href="#">Fruits</a></li>
+            <li class="nav"><a href="#">Dairy</a></li>
+            <li class="nav"><a href="#">Contact Us</a></li>
+            <li style="position: relative;"> <img width="80%" src="./photos/ShoppingCartSimple (1).png" alt=""
+                    srcset=""></li>
+        </ol>
+    </div>
+
+    <!-- HERO SECTION-->
+    <div class="hero-section">
+        <div class="color-bg"></div>
+        <p class="text">Shop fresh groceries in simple steps with us, directly from the field to your doorstep!</p>
+    </div>
+
+    <!-- Search box -->
+    <!-- <div class="search-box">
+            <div class="search-container">
+                <div class="grocery-category">
+                    <p>Search your category and product</p>
+                </div>
+                <select>
+                    <option>Select Category</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                    <option>Dairy</option>
+                    <option>Eggs</option>
+                    <option>Snacks</option>
+                    <option>Bakery</option>
+                </select>
+                <select>
+                    <option>Select Product</option>
+                </select>
+                <button class="search-button">Search</button>
+            </div>
+        </div> -->
+
+
+
+    <div class="offer">
+        <div class="banners">
+
+            <div class="banner-container">
+                <div class="banner-content">
+                    <h1 class="banner-title">Fresh Apples</h1>
+                    <p class="banner-subtitle">Organic & Juicy</p>
+
+                    <p class="banner-description">Get the freshest apples sourced directly from farms.</p>
+                </div>
+
+                <img src="./images/apple.png" alt="apple" class="car-image">
+            </div>
+            <div class="banner-container2">
+                <div class="banner-content">
+                    <h1 class="banner-title">Organic Carrots</h1>
+                    <p class="banner-subtitle">Healthy & Crunchy</p>
+
+                    <p class="banner-description">Enjoy farm-fresh organic carrots at discounted prices.</p>
+                </div>
+
+                <img src="./images/carrot.png" alt="carrot" class="car-image">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Deal of the day -->
+    <section class="deal-section">
+        <div class="container">
+            <div class="deal-content">
+                <span class="subheading">Best Price For You</span>
+                <h2 class="heading">Deal of the day</h2>
+                <p class="description">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia</p>
+                <a href="#" class="product-name">Spinach</a>
+                <span class="price">$16 <a href="#">now $5 only</a></span>
+                <div class="timer">
+                    <div class="time" id="days">00d</div>
+                    <div class="time" id="hours">00h</div>
+                    <div class="time" id="minutes">00m</div>
+                    <div class="time" id="seconds">00s</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER SECTION  -->
+
+    <!-- categories -->
+    <div class="categories">
+
+        <!-- this is category -->
+        <h2 class="categories-head">Top Selling</h2>
+        <p class="categories-para">Explore top-rated organic produce and premium quality grocery essentials, handpicked
+            for freshness!</p>
+
+        <div class="categories-boxes">
+
+            <!-- product 1 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-1.jpg" alt="capsicum" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Capsicum</h3>
+                        <div class="product-price">
+                            $14<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- product 2 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-2.jpg" alt="Strawberries" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Fresh Strawberries</h3>
+                        <div class="product-price">
+                            $22<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pruduct 3 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-3.jpg" alt="Peas" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Peas</h3>
+                        <div class="product-price">
+                            $16<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- prroduct 4 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-4.jpg" alt="Cabbage" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Cabbage</h3>
+                        <div class="product-price">
+                            $19<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="categories-boxes">
+
+            <!-- product 5 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-5.jpg" alt="Tomato" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Tomato</h3>
+                        <div class="product-price">
+                            $12<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- product 6 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-6.jpg" alt="Strawberries" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Broclli</h3>
+                        <div class="product-price">
+                            $14<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pruduct 3 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-7.jpg" alt="Carrot" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Carrot</h3>
+                        <div class="product-price">
+                            $20<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- prroduct 4 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-8.jpg" alt="Carrot Juice" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Carrot Juice</h3>
+                        <div class="product-price">
+                            $17<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="categories-boxes">
+
+            <!-- product 1 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-9.jpg" alt="Onion" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Onion</h3>
+                        <div class="product-price">
+                            $12<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- product 2 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-10.jpg" alt="Apple" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Apple</h3>
+                        <div class="product-price">
+                            $19<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pruduct 3 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-11.jpg" alt="Strawberries" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Garlic</h3>
+                        <div class="product-price">
+                            $25<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- prroduct 4 -->
+            <div class="box1">
+                <div class="product-card">
+                    <!-- Sale Badge (Optional) -->
+                    <div class="product-badge">Sale</div>
+
+                    <!-- Favorite Button -->
+                    <button class="product-favorite">
+                        <img src="./svgs/heart-solid.svg" alt="" class="heart">
+                    </button>
+
+                    <!-- Product Image -->
+                    <img src="/images/product-12.jpg" alt="Strawberries" class="product-image">
+
+                    <!-- Product Details -->
+                    <div class="product-details">
+                        <h3 class="product-name">Chillies</h3>
+                        <div class="product-price">
+                            $19<span class="product-unit">/kg</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-cart">
+                            <img src="./svgs/cart-2.svg" alt="" class="add-to-cart">
+                            Cart
+                        </button>
+                        <button class="btn btn-buy">
+                            <img src="./svgs/bag.svg" alt="" class="buy-now-icon">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <!-- why choose us -->
+
+    <!-- crousal -->
+
+    <div class="crousal-container">
+        <div class="crousal-wrapper">
+            <!-- Slide 1 -->
+            <div class="crousal-slide active">
+                <div class="crousal-content" style="background-image: url('/images/bg-3.jpg')">
+                    <div class="crousal-overlay"></div>
+                    <div class="crousal-text">
+                        <h2 class="crousal-title">Fresh Organic Vegetables</h2>
+                        <p class="crousal-description">Get farm-fresh organic vegetables delivered to your doorstep.
+                            Handpicked daily for the best quality and taste.</p>
+                        <a href="#" class="crousal-button">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="crousal-slide">
+                <div class="crousal-content" style="background-image: url('/images/bg_3.jpg')">
+                    <div class="crousal-overlay"></div>
+                    <div class="crousal-text">
+                        <h2 class="crousal-title">Fresh Fruits Collection</h2>
+                        <p class="crousal-description">Discover our premium selection of seasonal fruits. Natural
+                            sweetness for your healthy lifestyle.</p>
+                        <a href="#" class="crousal-button">View Collection</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="crousal-slide">
+                <div class="crousal-content" style="background-image: url('/images/bg_1.jpg')">
+                    <div class="crousal-overlay"></div>
+                    <div class="crousal-text">
+                        <h2 class="crousal-title">Special Offers</h2>
+                        <p class="crousal-description">Get up to 50% off on selected items. Limited time offer on
+                            premium grocery items.</p>
+                        <a href="#" class="crousal-button">Shop Deals</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="crousal-nav">
+                <button class="crousal-nav-button" onclick="prevSlide()">❮</button>
+                <button class="crousal-nav-button" onclick="nextSlide()">❯</button>
+            </div>
+
+            <!-- Dots Navigation -->
+            <div class="crousal-dots">
+                <span class="crousal-dot active" onclick="setSlide(0)"></span>
+                <span class="crousal-dot" onclick="setSlide(1)"></span>
+                <span class="crousal-dot" onclick="setSlide(2)"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Feature Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-color-1">
+                        <img src="./svgs/cart.svg" alt="" class="why-choose-icons">
+                    </div>
+                    <h3 class="feature-title">Free Shipping</h3>
+                    <p class="feature-text">On order over $270</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-color-2">
+                        <img src="./svgs/leaf-solid.svg" alt="" class="why-choose-icons">
+                    </div>
+                    <h3 class="feature-title">Always Fresh</h3>
+                    <p class="feature-text">Product well packaged</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-color-3">
+                        <img src="./svgs/seedling-solid.svg" alt="" class="why-choose-icons">
+                    </div>
+                    <h3 class="feature-title">Superior Quality</h3>
+                    <p class="feature-text">Quality Products</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-color-4">
+                        <img src="./svgs/headset-solid.svg" alt="" class="why-choose-icons">
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-text">Get help anytime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testimonials -->
+    <div class="testimonial-main">
+        <div class="container">
+            <p>CUSTOMER REVIEWS</p>
+            <h2>What our happy customers say about us</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="star">★ ★ ★ ★ ★</div>
+                    <p>"The quality of fresh produce here is exceptional! I've been shopping weekly for months, and
+                        their fruits and vegetables are always fresh and last longer than from other stores."</p>
+                    <img src="/images/testi2.png" alt="Sarah Miller">
+                    <p class="name">Sarah Miller</p>
+                    <p class="role">Regular Customer</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="star">★ ★ ★ ★ ★</div>
+                    <p>"Their same-day delivery service is a lifesaver! The groceries arrive fresh and well-packed, and
+                        the delivery staff is always professional and friendly."</p>
+                    <img src="/images/testi.jpeg" alt="Michael Chen">
+                    <p class="name">Michael Chen</p>
+                    <p class="role">Verified Buyer</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="star">★ ★ ★ ★ ★</div>
+                    <p>"The organic selection is amazing, and the prices are very reasonable. I love that they source
+                        from local farmers. It's become my go-to grocery store!"</p>
+                    <img src="/images/testi3.jpg" alt="Emma Thompson">
+                    <p class="name">Emma Thompson</p>
+                    <p class="role">Loyal Customer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Logo and Newsletter Section -->
+            <div class="footer-column footer-logo">
+                <img src="/images/greenGrossLogo.png" alt="FreshMart Logo">
+                <p>Your trusted destination for fresh, quality groceries delivered to your doorstep.</p>
+                <div class="footer-subscribe">
+                    <input type="email" placeholder="Subscribe to our newsletter">
+                    <button type="submit">→</button>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><img src="./svgs/faceBook1.svg" alt="" class="svg-footer facebook"></a>
+                    <a href="#"><img src="./svgs/instagram.svg" class="svg-footer facebook"></a>
+                    <a href="#"><img src="/svgs/pintrest.svg" class="svg-footer facebook"></a>
+                    <a href="#"><img src="/svgs/x.svg" class="svg-footer facebook"></a>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="footer-column">
+                <h3>Shop Categories</h3>
+                <ul>
+                    <li><a href="#">Fresh Produce</a></li>
+                    <li><a href="#">Dairy & Eggs</a></li>
+                    <li><a href="#">Bakery</a></li>
+                    <li><a href="#">Meat & Seafood</a></li>
+                    <li><a href="#">Pantry Items</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Recipe Ideas</a></li>
+                    <li><a href="#">Organic Products</a></li>
+                    <li><a href="#">Bulk Buying</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Service -->
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+
+            <!-- About -->
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partner With Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2022 GreenGrocer. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+
+
+        <!-- Footer Bottom -->
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
